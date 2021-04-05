@@ -1,0 +1,239 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.sobre{
+    margin-top: 50px;
+}
+
+.header{
+    background-color: #252525f1;
+    color: white;
+    /* ctrl + ; faz comentário no css */
+    /* height: 80px; */
+    overflow: auto;
+    border-bottom: 3px solid #B53B83;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.imgicon{
+    float: left;
+    margin: 0;
+    padding-top: 5px;
+    height: 100px;
+} 
+
+.imgicon:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+    -webkit-filter: drop-shadow(15px 10px 5px);
+    filter: drop-shadow(10px 8px 2px rgba(223, 204, 204, 0.5));
+    border-radius: 10%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+.container a{
+    text-decoration:none;
+    color: rgb(245, 245, 245);
+}
+.container a:hover{
+    color: #B53B83;
+}
+
+.navbar{
+    float: right;
+    list-style: none;
+    padding-top: 40px;
+    margin: 0;
+}
+.destaque{
+    color: #B53B83;
+    
+}
+.titulo{
+    float: left;
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 10px; 
+}
+li{
+    float: left;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+li:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+    border-radius: 10%;
+ 
+   
+}
+
+
+/*BANNER*/
+
+.banner {
+    text-align: center;
+    background-color: #5a0838;
+    background-image: url(img/banner-fundo-small1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.banner h1{
+    margin: 0;
+    font-size: 40px;
+    padding-top: 220px;
+    margin-left: 40%;
+}
+.banner h3{
+    margin: 0;
+    font-size: 18px;
+    margin-left: 40%;
+    padding-top: 20px;
+}
+.saiba-mais button{
+    border:0;
+    background-color: #B53B83;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.saiba-mais button:hover{
+    border: 10px  #ee7ad5;
+    -webkit-filter: drop-shadow(15px 10px 5px );
+    filter: drop-shadow(9px 7px 3px #dd8e9b96);
+    -webkit-transform: scale(1.0);
+    transform: scale(0.9);
+}
+.saiba-mais {
+    text-align: center;
+    background-color: rgb(31, 29, 29);
+    height: 90px;
+}
+
+
+/*BOX*/
+
+.box img{
+    height: 140px;
+}
+.box img:hover{
+    -webkit-transform: scale(2.5);
+    transform: scale(1.1);
+    -webkit-filter: drop-shadow(15px 10px 5px);
+    filter: drop-shadow(12px 8px 4px  rgb(112, 68, 85));
+    border-radius: 10%;
+    cursor: pointer;
+}
+.box{
+    border: 3px ;
+    overflow: auto;
+}
+.box h1{
+    margin: 0;
+    font-size: 40px;
+    padding-top: 20px;
+    text-align: center;
+}
+.box h3{
+    margin: 0;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.box-item{
+    border: 3px ;
+    float: left;
+    text-align: center;
+    width: 27%;
+    padding: 3%;
+}
+.box-item b{
+    color: #B53B83;
+    font-size: 25px;
+}
+.box-item p{
+    font-size: 18px;
+}
+
+/*BOX-EQUIPE*/
+
+.equipe{
+   background-color: rgba(255, 255, 255, 0.644);
+   border: 3px ;
+   float: left;
+   text-align: center;
+   width: 18%;
+   padding: 3%;
+   margin-left: 1%;
+   text-justify:distribute-all-lines;
+}
+
+.box-equipe{
+    background-image: url(img/fundoEquipe.JPEG);
+    text-align: center;
+    padding-bottom: 5%;
+    background-size: 100% ;
+    padding-top: 20%;
+    background-repeat: no-repeat;
+}
+
+.box-equipe img{
+    height: 200px;
+    border-radius: 100%;
+}
+.box-equipe img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+    -webkit-filter: drop-shadow(1px 10px 5px);
+    filter: drop-shadow(7px 8px 4px  rgb(112, 68, 85));
+    border-radius: 100%;
+    cursor: pointer;
+}
+.box-equipe h1{
+    font-size: 40px;
+    background-color: rgba(243, 243, 243, 0.726);
+}
+.sobreEquipe{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    border: 3px ;
+    overflow: auto;
+}
+.box-equipe b{
+    color: #B53B83;
+    font-size: 18px;
+    text-align: center;
+
+}
+.footer {
+    text-align: center;
+    background-color: #B53B83;
+    height: 70px;
+    
+}
+ .footer h4{
+     margin: 0;
+     padding-top: 40px;
+     font-weight: 100;
+     color: white; 
+     
+ }
+ .footer h4 a{
+    color: white;
+    text-decoration:none;
+
+ }
