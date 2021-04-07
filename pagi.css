@@ -17,6 +17,7 @@ body{
     padding-bottom: 10px;
     position: fixed;
     width: 100%;
+    z-index: 99;
 }
 
 .imgicon{
@@ -190,17 +191,18 @@ li:hover{
     background-repeat: no-repeat;
 }
 
-.box-equipe img{
+.imgEquipe {
     height: 200px;
     border-radius: 100%;
 }
-.box-equipe img:hover{
+.imgEquipe:hover{
     -webkit-transform: scale(1.5);
     transform: scale(1.1);
     -webkit-filter: drop-shadow(1px 10px 5px);
     filter: drop-shadow(7px 8px 4px  rgb(112, 68, 85));
     border-radius: 100%;
     cursor: pointer;
+
 }
 .box-equipe h1{
     font-size: 40px;
@@ -219,6 +221,20 @@ li:hover{
     text-align: center;
 
 }
+
+
+.redes{
+    width: 30px;
+}
+.redes:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+    -webkit-filter: drop-shadow(1px 10px 5px);
+    filter: drop-shadow(7px 8px 4px  rgb(112, 68, 85));
+    border-radius: 100%;
+    cursor: pointer;
+
+}
 .footer {
     text-align: center;
     background-color: #B53B83;
@@ -232,6 +248,7 @@ li:hover{
      color: white; 
      
  }
+ 
  .footer h4 a{
     color: white;
     text-decoration:none;
