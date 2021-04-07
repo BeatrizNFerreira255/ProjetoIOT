@@ -42,6 +42,7 @@ body{
 .container a{
     text-decoration:none;
     color: rgb(245, 245, 245);
+    
 }
 .container a:hover{
     color: #B53B83;
