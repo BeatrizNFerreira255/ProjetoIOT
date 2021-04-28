@@ -9,6 +9,8 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/icons/iconBia.png">
+
     <title>Document</title>
 </head>
 
@@ -22,7 +24,7 @@
                 <li id="link-home">
                 <li><a href="pagina.html">Home</a></li>
                 </li>
-                <li id="link-home"><a href="#sobre">Sobre</a></li>
+                <li id="link-home"><a href="pagina.html #sobre">Sobre</a></li>
                 <li id="link-home"><a href="faleConosco.html"> Fale conosco</a></li>
                 <li id="link-home"><a href="login.html"> login</a></li>
 
@@ -34,19 +36,38 @@
     <div class="desce">
         <div class="pag-contato">
             <div class="container">
-                <div class="box-cadastro">
-                    <h1>Entrar em contato</h1>
-                    <form action="">
-                        <input type="text" name="login" placeholder="Nome:" autofocus>
-                        <input type="text" name="password" placeholder="Sobrenome:">
-                        <input class="inpt_email" type="text" name="password" placeholder="E-mail institucional:">
-                        <input type="text" name="password" placeholder="Senha:">
-                        <input type="password" name="password" placeholder="Confirmar senha:">
-                        <button class="btn">Fazer cadastro</button>
 
-                    </form>
+                <div class="box-contato">
+                    <h1>Entrar em contato</h1>
+
+                    <input type="text" name="login" placeholder="Nome:" autofocus>
+                    <input type="text" name="password" placeholder="E-mail:">
+                    <input class="inp_mensagem" type="text" placeholder="Enviar mensagem:">
+
+                    <button class="btn">Enviar mensagem</button>
 
                 </div>
+
+                <div class="box-email">
+                    <h3 class="titulo"><i>Outras formas de contato:</i></h3>
+
+                    <div class="formasContato">
+                        <div class="contatos">
+                            <img class="contatosIMG" src="./img/icons/telefone.png" alt="">
+                            <i>(11)94599-9956</i>
+                        </div>
+
+                        <div class="contatos">
+                            <img class="contatosIMG" src="./img/icons/mensagem.png" alt="">
+                            <i>projetoiot@gmail.com</i>
+                        </div>
+                        <div class="contatos">
+                            <img class="contatosIMG" src="./img/icons/local.png" alt="">
+                            <i>Rua Haddock Lobo, 595 - Cerqueira César, São Paulo - SP, 01414-001</i>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
